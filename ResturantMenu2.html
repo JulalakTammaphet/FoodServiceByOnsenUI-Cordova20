@@ -1,0 +1,97 @@
+<ons-page id="ResturantMenu2page">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button>
+                <ons-icon icon="fa-arrow-left" onclick="fn.load('ResturantList1.html')">Back</ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">FOOD SERVICE</div>
+        <div class="right">
+            <ons-toolbar-button>
+                <ons-icon icon="md-home" onclick="fn.load('FoodCategory.html')"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+
+    <ons-row class="row justify-content-center">
+
+        <ons-col>
+            <p style="text-align: center"><b>อัยย๊ะ ชาคอน</b></p>
+            <!-- <ons-card style="width: 99%">
+                <img src="img foodService/รวม ของหวาน เครื่องดื่ม อาหารทะเล/เครื่องดื่ม/อั้ยย๊ะชาคอน/f1ef8fb453854d1fbc3aeb776ae13f89.jpg" style="width: 99%">
+            </ons-card> -->
+
+            <ons-card style="width: 99%">
+
+                <!-- Nav-->
+                <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+                    <div class="row">
+                        <div class="col">
+                            <ons-button style="background-color:blueviolet" data-toggle="modal" data-target="#cart" onclick="fn.load('OrderConfirmation.html')">Cart (<span class="total-count"></span>)</ons-button>
+                            <ons-button style="background-color:blueviolet" class="clear-cart btn btn-danger">Clear Cart</ons-button>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ชาคอน</h4>
+                                    <p class="card-text">Price: 25 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ชาคอน" data-price="25" class="add-to-cart btn btn-primary" onclick="addtocart()">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ชาเขียวคอน</h4>
+                                    <p class="card-text">Price: 25 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ชาเขียวคอน" data-price="25" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">กาเเฟคอน</h4>
+                                    <p class="card-text">Price: 25 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="กาเเฟคอน" data-price="25" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">โกโก้</h4>
+                                    <p class="card-text">Price: 25 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="โกโก้" data-price="25" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ชาเขียว</h4>
+                                    <p class="card-text">Price: 25 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ชาเขียว" data-price="25" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="dialog-container">
+                    <p style="text-align:center;margin-top:40px;opacity:0.4;">ที่อยู่ร้าน : 8/25 ม.2 ถ.พระภูเก็ตเเก้ว ตำบลกะทู้ อำเภอกะทู้ จังหวัดภูเก็ต 83120 Tel 062-8836-998</p>
+                    <br>
+                </div>
+            </ons-card>
+        </ons-col>
+    </ons-row>
+</ons-page>

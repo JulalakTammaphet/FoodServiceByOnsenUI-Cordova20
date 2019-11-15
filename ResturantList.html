@@ -1,0 +1,53 @@
+<ons-page id="ResturantListpage">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button>
+                <ons-icon icon="fa-arrow-left" onclick="fn.load('FoodCategory.html')">Back</ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">FOOD SERVICE</div>
+        <div class="right">
+            <ons-toolbar-button>
+                <ons-icon icon="md-home" onclick="fn.load('FoodCategory.html')"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+    <br>
+    <div class="content" style="text-align: center;">
+        <div>
+            <p style="text-align: center; margin-top: 20px; margin-bottom: 10px;">
+                <ons-search-input placeholder="Food or Restuarant">
+                </ons-search-input>
+            </p>
+        </div>
+
+        <div class="category_content">
+            <h4 style="margin-top: 0px">SWEET</h4>
+            <ons-row class="category">
+                <ons-col modifier="nodivider">
+                    <div class="category_wrapper" style="background-image: url('https://firebasestorage.googleapis.com/v0/b/foodservice-5eda5.appspot.com/o/resturantlist%2F%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%97%E0%B8%B2%E0%B8%87.jpg?alt=media&token=61eb038b-a9a7-452b-ae84-0df323df46f8');
+                    background-size: 300px;">
+                        <figure class="category_thumbnail" id="rimbtn">
+                            <div class="category_title " id="item1_category ">ริมทาง @ ฉลอง</div>
+                            <img src="img/ดาว.png " width="100">
+                        </figure>
+
+                    </div>
+                </ons-col>
+                <ons-col modifier="nodivider">
+                    <div class="category_wrapper" style="background-image: url('https://firebasestorage.googleapis.com/v0/b/foodservice-5eda5.appspot.com/o/resturantlist%2F%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B8%E0%B8%99.jpg?alt=media&token=60f548cf-087f-4ac3-9438-27c817ec3e0f');
+                    background-size: 300px;">
+                        <figure class="category_thumbnail" id="wanbtn">
+                            <div class="category_title " id="item1_category ">หวานละมุน</div>
+                            <img src="img/ดาว.png " width="100">
+                        </figure>
+                    </div>
+                </ons-col>
+            </ons-row>
+
+
+        </div>
+
+    </div>
+
+</ons-page>

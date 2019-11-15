@@ -1,0 +1,95 @@
+<ons-page id="ResturantMenu6page">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button>
+                <ons-icon icon="fa-arrow-left" onclick="fn.load('ResturantList3.html')">Back</ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">FOOD SERVICE</div>
+        <div class="right">
+            <ons-toolbar-button>
+                <ons-icon icon="md-home" onclick="fn.load('FoodCategory.html')"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+
+    <ons-row class="row justify-content-center">
+
+        <ons-col>
+            <p style="text-align: center"><b>กิตติก๋วยเตี๋ยวเป็ด</b></p>
+
+
+            <ons-card style="width: 99%">
+
+                <!-- Nav-->
+                <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+                    <div class="row">
+                        <div class="col">
+                            <ons-button style="background-color:blueviolet" data-toggle="modal" data-target="#cart" onclick="fn.load('OrderConfirmation.html')">Cart (<span class="total-count"></span>)</ons-button>
+                            <ons-button style="background-color:blueviolet" class="clear-cart btn btn-danger">Clear Cart</ons-button>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ก๋วยเตี๋ยวบะหมี่น้ำเป็ดพะโล้</h4>
+                                    <p class="card-text">Price: 50 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ก๋วยเตี๋ยวบะหมี่น้ำเป็ดพะโล้" data-price="50" class="add-to-cart btn btn-primary" onclick="addtocart()">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ก๋วยเตี๋ยวบะหมี่เเห้งเป็ดพะโล้</h4>
+                                    <p class="card-text">Price: 50 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ก๋วยเตี๋ยวบะหมี่เเห้งเป็ดพะโล้" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ก๋วยเตี๋ยวเส้นเล็กน้ำเป็ดพะโล้ </h4>
+                                    <p class="card-text">Price: 50 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ก๋วยเตี๋ยวเส้นเล็กน้ำเป็ดพะโล้" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ก๋วยเตี๋ยวเส้นเล็กเเห้งเป็ดพะโล้</h4>
+                                    <p class="card-text">Price: 50 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ก๋วยเตี๋ยวเส้นเล็กเเห้งเป็ดพะโล้" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ก๋วยเตี๋ยวเส้นหมี่น้ำเป็ดพะโล้</h4>
+                                    <p class="card-text">Price: 50 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ก๋วยเตี๋ยวเส้นหมี่น้ำเป็ดพะโล้" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="dialog-container">
+                    <p style="text-align:center;margin-top:40px;opacity:0.4;">ที่อยู่ร้าน : 367/30-31 ถนนเยาวราช ตลาดใหญ่ อำเภอเมืองภูเก็ต ภูเก็ต 83000 Tel 095-375-4555</p>
+                    <br>
+                </div>
+            </ons-card>
+        </ons-col>
+    </ons-row>
+</ons-page>

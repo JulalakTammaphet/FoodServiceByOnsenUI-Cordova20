@@ -1,0 +1,50 @@
+<ons-page id="OrderConfirmation">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button>
+                <ons-icon icon="fa-arrow-left" onclick="fn.load('ResturantMenu.html')"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">FOOD SERVICE</div>
+        <div class="right">
+            <ons-toolbar-button>
+                <ons-icon icon="md-home" onclick="fn.load('FoodCategory.html')"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+
+
+
+
+    <!-- Modal -->
+    <ons-row class="row justify-content-center">
+        <!-- <ons-col class="col-3" width="25%"></ons-col> -->
+        <ons-col>
+            <ons-card style="width: 99%">
+
+
+
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="text-align: center">CART</h5>
+
+
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table">
+
+                    </table>
+                    <div>Total Price : <span class="total-cart"></span> ฿</div>
+                </div>
+                <div style="text-align: center">
+
+                    <ons-button class="ordernowbtn" style="background-color:blueviolet">Order now</ons-button>
+                    <ons-button class="ordernowbtn" style="background-color:green">Payment</ons-button>
+                </div>
+
+            </ons-card>
+
+
+        </ons-col>
+
+    </ons-row>
+</ons-page>

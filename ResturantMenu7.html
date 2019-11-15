@@ -1,0 +1,95 @@
+<ons-page id="ResturantMenu7page">
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button>
+                <ons-icon icon="fa-arrow-left" onclick="fn.load('ResturantList3.html')">Back</ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">FOOD SERVICE</div>
+        <div class="right">
+            <ons-toolbar-button>
+                <ons-icon icon="md-home" onclick="fn.load('FoodCategory.html')"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+
+    <ons-row class="row justify-content-center">
+
+        <ons-col>
+            <p style="text-align: center"><b>โกเบ๊นซ์ ข้าวต้มภูเก็ต</b></p>
+
+
+            <ons-card style="width: 99%">
+
+                <!-- Nav-->
+                <nav class="navbar navbar-inverse bg-inverse fixed-top bg-faded">
+                    <div class="row">
+                        <div class="col">
+                            <ons-button style="background-color:blueviolet" data-toggle="modal" data-target="#cart" onclick="fn.load('OrderConfirmation.html')">Cart (<span class="total-count"></span>)</ons-button>
+                            <ons-button style="background-color:blueviolet" class="clear-cart btn btn-danger">Clear Cart</ons-button>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ข้าวต้มเเห้งธรรมดา</h4>
+                                    <p class="card-text">Price: 50 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ข้าวต้มเเห้งธรรมดา" data-price="50" class="add-to-cart btn btn-primary" onclick="addtocart()">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ข้าวต้มเเห้งพิเศษ</h4>
+                                    <p class="card-text">Price: 60 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ข้าวต้มเเห้งพิเศษ" data-price="60" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ข้าวต้มกระดูกหมูธรรมดา)</h4>
+                                    <p class="card-text">Price: 50 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ข้าวต้มกระดูกหมูธรรมดา" data-price="70" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ข้าวต้มกระดูกหมูพิเศษ</h4>
+                                    <p class="card-text">Price: 60 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ข้าวต้มกระดูกหมูพิเศษ" data-price="60" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 100%;">
+
+                                <div class="card-block">
+                                    <h4 class="card-title">ข้าวเปล่า</h4>
+                                    <p class="card-text">Price: 10 ฿</p>
+                                    <ons-button style="background-color:blueviolet"><a data-name="ข้าวเปล่า" data-price="10" class="add-to-cart btn btn-primary">Add to cart</a></ons-button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="dialog-container">
+                    <p style="text-align:center;margin-top:40px;opacity:0.4;">ที่อยู่ร้าน : ถนน กระบี่ ตำบล ตลาดเหนือ อำเภอเมืองภูเก็ต ภูเก็ต 83000 Tel 084-060-7799</p>
+                    <br>
+                </div>
+            </ons-card>
+        </ons-col>
+    </ons-row>
+</ons-page>
