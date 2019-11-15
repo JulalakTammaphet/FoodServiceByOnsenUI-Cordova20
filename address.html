@@ -1,0 +1,34 @@
+<ons-page id="addressPage">
+    <ons-toolbar>
+        <div class="left">
+            <!-- Toolbar-button with different icons depending on the platform. -->
+            <ons-toolbar-button id="menubtn">
+                <ons-icon icon="ion-navicon, material:md-menu" size="32px, material:24px"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+        <div class="center">Delivery Address</div>
+        <div class="right">
+            <ons-toolbar-button>
+                <ons-icon icon="fa-user-circle"></ons-icon>
+            </ons-toolbar-button>
+        </div>
+    </ons-toolbar>
+    <div class="content" style="text-align: center;">
+        <ons-row class="category">
+            <ons-col modifier="nodivider">
+                <h2 id="header" class="category_header_title">Current location</h2>
+            </ons-col>
+        </ons-row>
+        <ons-row>
+            <div id="map"></div>
+            <pre id='coordinates' class='coordinates'></pre>
+        </ons-row>
+        <ons-fab position="bottom right" id="setaddress">
+            <ons-icon icon="fa fa-map-pin">
+                </i>">
+            </ons-icon>
+        </ons-fab>
+
+    </div>
+
+</ons-page>
